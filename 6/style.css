@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.user-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.styled-table , #user-data , #add-user-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px;
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+.styled-table th{
+    background-color: rgb(181, 176, 176);
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #cbf0e9;
+}
+#user-data td , #add-user-table td {
+    padding: 12px 15px;
+    border: 1px solid gray;
+    background-color: #cbf0e9;
+
+}
+
+#delete {
+    background-color: rgb(233, 92, 92);
+    width: 100px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+display: none;
+
+}
+#edit {
+    background-color: rgb(232, 232, 109);
+    width: 100px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    display: none;
+
+}
+
+#add {
+background-color: rgb(110, 193, 110);
+width: 200px;
+padding: 1rem;
+border: none;
+margin: auto;
+border-radius: 5px;
+
+}
+#add-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#save {
+    background-color: rgb(49, 78, 49);
+    width: 100px;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    display: none;
+
+}
