@@ -1,0 +1,31 @@
+#text-container {
+    border : 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(183, 178, 178);
+    padding: 50px;
+    border-radius: 5px;
+
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+button{
+    padding: 20px;
+    border-radius: 5px;
+
+}
+#dark {
+    background-color: rgb(23, 22, 22);
+    color: white;
+}
+#light {
+    background-color: rgb(183, 178, 178);
+}
+#title {
+    margin: auto;
+    font-size:larger;
+}
