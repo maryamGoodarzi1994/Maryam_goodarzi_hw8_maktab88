@@ -1,0 +1,18 @@
+.main-section {
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+}
+#left {
+    width: 30%;
+    background-color: rgb(159, 157, 157);
+}
+#rigth {
+    width: 70%;
+}
+#london{
+    background-color: grey;
+}
+div {
+    padding: 30px;
+}
